@@ -1,0 +1,51 @@
+@font-face {
+
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Medium.ttf);
+
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Raleway;
+    font-size: 14px;
+}
+
+.main-container {
+
+    display: block;
+    margin: 100px 100px;
+
+}
+
+.main-container .header {
+
+    margin: auto;
+    width: 50%;
+
+}
+
+.main-container .header .name {
+    margin: 0 120px;
+    font-size: 36px;
+    /*font-weight: 400;*/
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-container .header .occupation {
+    padding-top: 20px;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.main-container .footer .made-by {
+    text-align: center;
+    font-size: 10px;
+    border-top: 1px solid darkgray;
+    margin-top: 10px;
+    padding-top: 10px;
+}
